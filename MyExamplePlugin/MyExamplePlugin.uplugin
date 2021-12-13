@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MyExamplePlugin",
+	"Description": "An example plugin used to tutorialise commandlet creation for nerds",
+	"Category": "Toy Plugins",
+	"CreatedBy": "Ori",
+	"CreatedByURL": "https://www.youtube.com/channel/UCxb2vCV-1go3d0T8kUQSXbA",
+	"CanContainContent": false,
+	"EnabledByDefault": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MyExamplePluginCommandlet",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
